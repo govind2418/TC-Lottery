@@ -32,19 +32,21 @@
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ml-auto">
               <!-- Home Tab -->
-              <li class="nav-item">
-                <a class="nav-link text-white" href="#">Home</a>
-              </li>
-              
+            <li class="nav-item">
+  <button class="nav-link text-white btn-hover" onclick="window.location.href='#'">Home</button>
+</li>
+
               <!-- Official Invite Code Tab -->
               <li class="nav-item">
-                <a class="nav-link text-white" href="https://tcvvip2.com/#/register?invitationCode=2778411740274"> Invite Code</a>
+                <button class="nav-link text-white btn-hover" onclick="window.location.href='https://tcvvip2.com/#/register?invitationCode=2778411740274'">Invite Code</button>
               </li>
+              
       
               <!-- Official Group Tab -->
               <li class="nav-item">
-                <a class="nav-link text-white" href="https://t.me/TCofficialschannel">Official Group</a>
+                <button class="nav-link text-white btn-hover" onclick="window.location.href='https://t.me/devitcofficial'">Official Group</button>
               </li>
+              
       
               <!-- Login Button -->
               <li class="nav-item">
@@ -135,7 +137,7 @@
             <a href="http://www.tcvvip2.com" class="bordered-link"><h4>http://www.tcvvip2.com</h4></a>
         </div>
     </center>
-    
+    <br><br><hr>
     <style>
         /* Styling for bordered links */
         .bordered-link {
@@ -262,6 +264,22 @@
               margin-right: 15px;
             }
           
+
+
+            .btn-hover {
+              background-color: transparent; /* Remove background for button appearance */
+              border: none; /* Remove border */
+              color: white; /* Text color */
+              cursor: pointer; /* Pointer cursor */
+              padding: 10px 20px; /* Adjust padding for button size */
+              font-size: 16px; /* Font size */
+              transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+            }
+            
+            .btn-hover:hover {
+              background-color: rgba(255, 255, 255, 0.2); /* Light background color on hover */
+            }
+            
           
          
     </style>
